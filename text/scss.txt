@@ -1,0 +1,2 @@
+variables.scss -> font haru milaune tesma
+typography.scss -> h2 h1 h3 haru font sizing ko kaam

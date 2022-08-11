@@ -1,0 +1,7 @@
+git config --global user.name"tmro git ko username"
+git config --global user.email"tmro email git ma haleko"
+git init
+git add .
+git commit -m"commit"
+git remote add origin https wala
+git push origin master 

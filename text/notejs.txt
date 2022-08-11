@@ -1,0 +1,15 @@
+instal notejs
+-> https://nodejs.org/download/release/v14.20.0/
+	{->node-v14.20.0-x64.msi   
+	 ->node-v14.20.0-x86.msi}
+
+open powershell
+-> npm install
+-> npm install gulp-cli
+-> npm install -g gulb-cli(install globally)
+-> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+-> gulp 
+     .open on webbrowser
+
+bootstap
+-> npm install node-sass --save-dev

@@ -1,0 +1,2 @@
+alt+leftclivk	
+textbox= ctrl+t
