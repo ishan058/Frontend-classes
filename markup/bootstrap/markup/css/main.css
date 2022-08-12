@@ -206,16 +206,24 @@ body {
 }
 
 .textarea {
-  position: relative;
+  resize: none;
+  height: 110px;
 }
 
-.textarea:after {
-  content: '';
-  position: absolute;
-  bottom: 2px;
-  right: 2px;
-  width: 20px;
-  height: 20px;
-  background: #fff;
-  pointer-events: none;
+.z-index {
+  z-index: 999;
+}
+
+blockquote p {
+  quotes: none;
+}
+
+blockquote p:after {
+  content: "\e978";
+  font-family: ico,\moon;
+}
+
+blockquote p:before {
+  content: "\e977";
+  font-family: icomoon;
 }
